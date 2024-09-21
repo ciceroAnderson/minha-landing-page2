@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page do Produto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .product-image {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px 0;
+        }
+        .button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .benefits {
+            list-style-type: none;
+            padding: 0;
+        }
+        .testimonial {
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #007BFF;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .payment-options img {
+            width: 50px;
+            margin: 0 10px;
+        }
+        .review-form, .comment-form {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Apresentando o Produto Incrível!</h1>
+    <p>A solução perfeita para suas necessidades.</p>
+</header>
+
+<section>
+    <h2>Sobre o Produto</h2>
+    <img src="https://via.placeholder.com/400" alt="Produto" class="product-image">
+    <p>Nosso produto é projetado para oferecer a melhor experiência. Com tecnologia avançada e design inovador, ele se destaca no mercado.</p>
+    
+    <h2>Benefícios</h2>
+    <ul class="benefits">
+        <li>✅ Alta qualidade e durabilidade</li>
+        <li>✅ Fácil de usar</li>
+        <li>✅ Suporte ao cliente 24/7</li>
+        <li>✅ Garantia de satisfação</li>
+    </ul>
+
+    <h2>Opções de Pagamento</h2>
+    <div class="payment-options">
+        <img src="https://via.placeholder.com/50x30?text=Visa" alt="Visa">
+        <img src="https://via.placeholder.com/50x30?text=Mastercard" alt="Mastercard">
+        <img src="https://via.placeholder.com/50x30?text=PayPal" alt="PayPal">
+    </div>
+
+    <h2>Envios</h2>
+    <p>Oferecemos envio gratuito para todo o Brasil! Entregas rápidas e seguras.</p>
+
+    <h2>Depoimentos</h2>
+    <div class="testimonial">
+        <p>"Este produto mudou minha vida! Recomendo a todos!" - João Silva</p>
+    </div>
+    <div class="testimonial">
+        <p>"A qualidade é excepcional e o atendimento é maravilhoso!" - Maria Oliveira</p>
+    </div>
+
+    <h2>Cadastro de Clientes</h2>
+    <form action="#" method="post">
+        <label for="client-name">Nome:</label><br>
+        <input type="text" id="client-name" name="client-name" required><br><br>
+        <label for="client-email">Email:</label><br>
+        <input type="email" id="client-email" name="client-email" required><br><br>
+        <input type="submit" value="Cadastrar" class="button">
+    </form>
+
+    <h2>Avaliações e Comentários</h2>
+    <div class="review-form">
+        <form action="#" method="post">
+            <label for="review-name">Seu Nome:</label><br>
+            <input type="text" id="review-name" name="review-name" required><br><br>
+            <label for="review">Avaliação:</label><br>
+            <textarea id="review" name="review" rows="4" required></textarea><br><br>
+            <input type="submit" value="Enviar Avaliação" class="button">
+        </form>
+    </div>
+
+    <h2>Comentários</h2>
+    <div class="comment-form">
+        <form action="#" method="post">
+            <label for="comment-name">Nome:</label><br>
+            <input type="text" id="comment-name" name="comment-name" required><br><br>
+            <label for="comment">Comentário:</label><br>
+            <textarea id="comment" name="comment" rows="4" required></textarea><br><br>
+            <input type="submit" value="Enviar Comentário" class="button">
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
